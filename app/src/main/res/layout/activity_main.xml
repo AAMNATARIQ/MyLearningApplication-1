@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FF9800"
+android:gravity="center"
+android:padding="16dp"
+tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LearningApplication"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:text="My Learning Application"
+        android:layout_marginBottom="20dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="329dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/image1" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_bg"
+        android:enabled="true"
+        android:padding="3dp"
+        android:text="start quiz"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+
+</LinearLayout>
