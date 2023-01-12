@@ -177,7 +177,7 @@ public class Activity1 extends AppCompatActivity {
                     if(mTotalQuestion<=(questionNum)) {
                         updateQuestion();
                     }
-                    else{
+                    else{git add .
                         resBtn.setVisibility(View.VISIBLE);
                         //updateQuestionView();
                     }
