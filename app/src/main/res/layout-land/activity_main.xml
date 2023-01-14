@@ -32,7 +32,7 @@ tools:context=".MainActivity">
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="9dp"
         app:srcCompat="@drawable/image1" />
 
     <Button
@@ -40,15 +40,15 @@ tools:context=".MainActivity">
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="13dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="78dp"
         android:background="@drawable/btn_bg"
         android:enabled="true"
         android:padding="3dp"
         android:text="start quiz"
-        android:textSize="10dp"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="10dp" />
 
 </RelativeLayout>
 
