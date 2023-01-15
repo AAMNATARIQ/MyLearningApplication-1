@@ -10,7 +10,8 @@ android:paddingBottom="16dp"
 android:paddingLeft="16dp"
 android:paddingRight="16dp"
 android:orientation="vertical"
-tools:context=".Activity1">
+tools:context=".Activity1"
+    android:background="#003151">
 
 <RelativeLayout
     android:layout_width="match_parent"

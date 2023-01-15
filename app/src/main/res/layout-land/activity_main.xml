@@ -5,7 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical"
 android:layout_width="820dp"
 android:layout_height="match_parent"
-android:background="#FF9800"
+    android:background="#003151"
 android:gravity="center"
 android:padding="16dp"
 tools:context=".MainActivity">
@@ -68,7 +68,7 @@ tools:context=".MainActivity">
             android:layout_marginBottom="5dp"
             android:gravity="center"
             android:text="My Learning Application"
-            android:textColor="@color/black"
+            android:textColor="#7dabca"
             android:textSize="28dp"
             android:textStyle="bold" />
 

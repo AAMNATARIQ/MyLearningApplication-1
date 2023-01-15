@@ -13,7 +13,8 @@ android:fillViewport="true">
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".Activity2">
+    tools:context=".Activity2"
+    android:background="#003151">
 
     <RelativeLayout
         android:layout_width="match_parent"
