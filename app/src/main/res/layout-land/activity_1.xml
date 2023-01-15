@@ -113,7 +113,7 @@
         android:layout_height="290dp"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="60dp"
         >
         <TextView
             android:id="@+id/question"
