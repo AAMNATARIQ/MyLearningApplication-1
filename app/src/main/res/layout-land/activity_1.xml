@@ -104,138 +104,104 @@
         </RelativeLayout>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="388dp"
+            android:layout_height="119dp"
+            android:padding="6dp"
+            android:text="Which thing is alive?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="35dp" />
 
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/relativeLayout"-->
+<!--            android:layout_width="407dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:padding="3dp"-->
+<!--            tools:layout_editor_absoluteX="3dp"-->
+<!--            tools:layout_editor_absoluteY="191dp">-->
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text=" "
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <!--        </RelativeLayout>-->
+    </LinearLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="wrap_content"
-            android:layout_height="229dp">
-
-
-            <TextView
-                android:id="@+id/question"
-                android:layout_width="388dp"
-                android:layout_height="119dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="11dp"
-                android:padding="6dp"
-                android:text="Which thing is alive?"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
-                app:layout_constraintEnd_toStartOf="@+id/choice1"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            android:orientation="vertical"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/choice1"
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_bg"
                 android:enabled="true"
+                android:layout_marginBottom="5dp"
                 android:padding="3dp"
                 android:text="bird"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/choice3"
-                app:layout_constraintEnd_toEndOf="@+id/choice2"
-                app:layout_constraintHorizontal_bias="0.272"
-                app:layout_constraintStart_toStartOf="@+id/resultBtn"
-                app:layout_constraintTop_toBottomOf="@+id/choice2" />
+                tools:layout_editor_absoluteX="420dp"
+                tools:layout_editor_absoluteY="81dp" />
 
             <Button
                 android:id="@+id/choice2"
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="66dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="203dp"
-                android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_bg"
                 android:enabled="true"
                 android:padding="3dp"
                 android:text="animal"
+                android:layout_marginBottom="5dp"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/choice1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/resultBtn"
-                app:layout_constraintTop_toTopOf="parent" />
+                tools:layout_editor_absoluteX="409dp"
+                tools:layout_editor_absoluteY="19dp" />
 
             <Button
                 android:id="@+id/choice3"
                 android:layout_width="155dp"
                 android:layout_height="49dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_bg"
                 android:enabled="true"
                 android:padding="3dp"
                 android:text="human"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/resultBtn"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/relativeLayout"
-                app:layout_constraintTop_toBottomOf="@+id/choice1" />
+                android:layout_marginBottom="5dp"
+                tools:layout_editor_absoluteX="410dp"
+                tools:layout_editor_absoluteY="158dp" />
 
             <Button
                 android:id="@+id/resultBtn"
                 android:layout_width="155dp"
                 android:layout_height="46dp"
-                android:layout_marginTop="26dp"
-                android:layout_marginEnd="203dp"
-                android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_bg"
                 android:enabled="true"
                 android:padding="3dp"
+                android:layout_marginBottom="5dp"
                 android:text="Show Results"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/relativeLayout"
-                app:layout_constraintTop_toTopOf="@+id/choice3"
-                app:layout_constraintVertical_bias="1.0" />
+                tools:layout_editor_absoluteX="410dp"
+                tools:layout_editor_absoluteY="238dp" />
 
-            <RelativeLayout
-                android:id="@+id/relativeLayout"
-                android:layout_width="407dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="4dp"
-                android:padding="3dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/question"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/question"
-                app:layout_constraintVertical_bias="0.443">
-
-                <!--        <Button-->
-                <!--            android:layout_width="match_parent"-->
-                <!--            android:layout_height="wrap_content"-->
-                <!--            android:text="human"-->
-                <!--            android:background="@color/yellow"-->
-                <!--            android:textColor="@color/white"-->
-                <!--            android:padding="8dp"-->
-                <!--            android:layout_marginBottom="24dp"-->
-                <!--            android:enabled="true"-->
-                <!--            android:id="@+id/answerBtn"/>-->
-                <TextView
-                    android:id="@+id/answer"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="167dp"
-                    android:gravity="center"
-                    android:text=" "
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
-
-            </RelativeLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </LinearLayout>
+</LinearLayout>
