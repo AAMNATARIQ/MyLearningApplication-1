@@ -24,7 +24,7 @@ tools:context=".MainActivity">
         android:layout_marginTop="150dp"
         android:gravity="center"
         android:text="My Learning Application"
-        android:textColor="@color/black"
+        android:textColor="#7dabca"
         android:textSize="30sp"
         android:textStyle="bold" />
 
