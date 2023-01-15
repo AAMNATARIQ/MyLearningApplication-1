@@ -36,7 +36,7 @@ android:fillViewport="true">
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:text="Correct"
-                android:textColor="@color/white"
+                android:textColor="@colgor/white"
                 android:textSize="15sp" />
 
             <TextView
@@ -114,13 +114,11 @@ android:fillViewport="true">
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
-
+        android:background="#FF9800"
         android:gravity="center">
         <TextView
             android:id="@+id/question_no11"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 1"
@@ -145,76 +143,74 @@ android:fillViewport="true">
             android:textColor="@color/white"/>
     </RelativeLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:padding="6dp">
-
-        <TextView
-            android:id="@+id/your_ques_val1"
-            android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="365dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:text="Your Answer"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ques_val1"
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="6dp">
+            <TextView
+                android:id="@+id/your_ques_val1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Your Answer"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ques_val1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="correct/incorrect"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="365dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="correct/incorrect"
-            android:textSize="15sp"/>
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="#39F319"
-        android:padding="6dp">
-        <TextView
-            android:id="@+id/question_corr_ans1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:text="Correct Answer"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
-        <TextView
-            android:id="@+id/ques_val_ans1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="Answer"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
-    </RelativeLayout>
-
+            android:layout_marginBottom="20dp"
+            android:background="#39F319"
+            android:padding="6dp">
+            <TextView
+                android:id="@+id/question_corr_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Correct Answer"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ques_val_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Answer"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
-        android:gravity="center"
-        >
-
+        android:background="#FF9800"
+        android:gravity="center">
         <TextView
             android:id="@+id/question_no22"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 2"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/white"/>
-
     </RelativeLayout>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -230,53 +226,57 @@ android:fillViewport="true">
             android:textSize="15sp"
             android:textColor="@color/white"/>
     </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:padding="6dp">
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="6dp">
 
-        <TextView
-            android:id="@+id/your_ques_val2"
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/your_ques_val2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Your Answer"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ques_val2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="correct/incorrect"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="365dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:text="Your Answer"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ques_val2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="correct/incorrect"
-            android:textSize="15sp"/>
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="#39F319"
-        android:padding="6dp">
-        <TextView
-            android:id="@+id/question_corr_ans2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:text="Correct Answer"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
-        <TextView
-            android:id="@+id/ques_val_ans2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="Answer"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
-    </RelativeLayout>
+            android:layout_marginBottom="20dp"
+            android:background="#39F319"
+            android:padding="6dp">
+            <TextView
+                android:id="@+id/question_corr_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Correct Answer"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/ques_val_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Answer"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
 
 
     <RelativeLayout
@@ -284,29 +284,23 @@ android:fillViewport="true">
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
-        android:gravity="center"
-        >
-
+        android:background="#FF9800"
+        android:gravity="center">
         <TextView
             android:id="@+id/question_no33"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 3"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/white"/>
-
     </RelativeLayout>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
-
         <TextView
             android:id="@+id/question_num3"
             android:layout_width="wrap_content"
@@ -317,12 +311,15 @@ android:fillViewport="true">
             android:textColor="@color/white"/>
     </RelativeLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
-
         <TextView
             android:id="@+id/your_ques_val3"
             android:layout_width="wrap_content"
@@ -340,7 +337,7 @@ android:fillViewport="true">
             android:textSize="15sp"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#39F319"
@@ -363,36 +360,32 @@ android:fillViewport="true">
             android:textColor="@color/white"
             android:textSize="15sp" />
     </RelativeLayout>
-
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
+        android:background="#FF9800"
         android:gravity="center"
         >
 
         <TextView
             android:id="@+id/question_n44"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 4"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/white"/>
-
     </RelativeLayout>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
-
         <TextView
             android:id="@+id/question_num4"
             android:layout_width="wrap_content"
@@ -402,9 +395,12 @@ android:fillViewport="true">
             android:textSize="15sp"
             android:textColor="@color/white"/>
     </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
@@ -426,7 +422,7 @@ android:fillViewport="true">
             android:textSize="15sp"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#39F319"
@@ -449,20 +445,19 @@ android:fillViewport="true">
             android:textColor="@color/white"
             android:textSize="15sp" />
     </RelativeLayout>
-
+    </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
+        android:background="#FF9800"
         android:gravity="center"
         >
 
         <TextView
             android:id="@+id/question_no55"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 5"
@@ -487,9 +482,12 @@ android:fillViewport="true">
             android:textSize="15sp"
             android:textColor="@color/white"/>
     </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
@@ -511,7 +509,7 @@ android:fillViewport="true">
             android:textSize="15sp"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#39F319"
@@ -534,31 +532,26 @@ android:fillViewport="true">
             android:textColor="@color/white"
             android:textSize="15sp" />
     </RelativeLayout>
-
-
-
+    </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp"
+        android:background="#FF9800"
         android:gravity="center"
         >
 
         <TextView
             android:id="@+id/question_no66"
-            android:layout_width="150dp"
-            android:gravity="center"
-            android:background="#FF9800"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Question No : 6"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/white"/>
-
     </RelativeLayout>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -574,9 +567,12 @@ android:fillViewport="true">
             android:textSize="15sp"
             android:textColor="@color/white"/>
     </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:padding="6dp">
@@ -598,7 +594,7 @@ android:fillViewport="true">
             android:textSize="15sp"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#39F319"
@@ -621,7 +617,7 @@ android:fillViewport="true">
             android:textColor="@color/white"
             android:textSize="15sp" />
     </RelativeLayout>
-
+    </LinearLayout>
 </LinearLayout>
 
 </ScrollView>
