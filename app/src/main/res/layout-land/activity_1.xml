@@ -112,7 +112,8 @@
         android:layout_width="wrap_content"
         android:layout_height="290dp"
         android:orientation="vertical"
-        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
         >
         <TextView
             android:id="@+id/question"
@@ -139,6 +140,7 @@
             android:layout_marginTop="10dp"
             android:padding="5dp"
             android:text=" "
+            android:textAlignment="center"
             android:layout_gravity="center"
             android:textColor="@color/white"
             android:textSize="20sp" />
@@ -149,7 +151,8 @@
             android:layout_width="match_parent"
             android:layout_height="288dp"
             android:orientation="vertical"
-            android:gravity="center">
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp">
 
             <Button
                 android:id="@+id/choice1"
@@ -158,6 +161,7 @@
                 android:background="@drawable/btn_bg"
                 android:enabled="true"
                 android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
                 android:padding="3dp"
                 android:text="bird"
                 android:textColor="@color/white"
@@ -186,7 +190,6 @@
                 android:padding="3dp"
                 android:text="human"
                 android:textColor="@color/white"
-                android:layout_marginBottom="5dp"
                 tools:layout_editor_absoluteX="410dp"
                 tools:layout_editor_absoluteY="158dp" />
 
@@ -198,6 +201,7 @@
                 android:enabled="true"
                 android:padding="3dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
                 android:text="Show Results"
                 android:textColor="@color/white"
                 tools:layout_editor_absoluteX="410dp"
